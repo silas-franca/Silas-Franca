@@ -1,0 +1,32 @@
+/* Custom styles for the professional profile site */
+
+body {
+  padding-top: 56px; /* ensure content doesn't hide behind fixed navbar */
+}
+
+/* Hero section styling */
+.hero {
+  padding: 6rem 0;
+  background: linear-gradient(90deg, #0e3a69 0%, #1f5891 100%);
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .hero {
+    min-height: 80vh;
+  }
+}
+
+.hero h1 {
+  font-weight: 700;
+}
+
+.hero .lead {
+  font-size: 1.25rem;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.5rem;
+}
